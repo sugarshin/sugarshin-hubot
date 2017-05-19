@@ -18,8 +18,8 @@ module.exports = (robot) ->
       content = decodeMarkdown res.content
       splited = content.split '\n'
       headers = splited
-        .filter (row) -> /^##\s+.+/.test row
-        .map (row, i) -> { text: row, index: splited.indexOf(row) }
+        .filter((row) -> /^##\s+.+/.test row)
+        .map((row, i) -> { text: row, index: splited.indexOf(row) })
       commonHeader = headers.find (h) -> /^##\s+共通/.test h.text
       orderedListRegex = /^\d+\.\s+.+/
       commonPromises = splited[(commonHeader.index + 1)...headers[1].index].filter (row) -> orderedListRegex.test row
