@@ -18,7 +18,7 @@ module.exports = (robot) ->
 
     index = parseInt JSON.parse(res)?.files?['gistfile1.txt']?.content or '0', 10
 
-    getChannelMembers HUBOT_SLACK_MONEY_FORWARD_CHANNEL_ID
+    getChannelMembers(HUBOT_SLACK_MONEY_FORWARD_CHANNEL_ID)
     .then (we) ->
       we = we.filter (m) -> m isnt robot.adapter.self.id
       robot.send(
