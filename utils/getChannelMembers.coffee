@@ -7,7 +7,7 @@ module.exports = (channelID) -> new Promise (resolve, reject) ->
   .then (res) -> res.json()
   .then (json) ->
     if (json.ok)
-      channel = json.channels.find c -> c.id is channelID
+      channel = json.channels.find (c) -> c.id is channelID
       resolve channel?.members or []
     else
       reject new Error json.error or 'Unknown error'
