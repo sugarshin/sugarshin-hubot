@@ -9,7 +9,7 @@ fetch = require 'node-fetch'
 module.exports = (robot) ->
   executeMonthlyReport = ->
     fetch(
-      "https://circleci.com/api/v1/project/sugarshin/build.log.sugarshin.net/tree/monthly-report?circle-token=#{TOKEN}"
+      "https://circleci.com/api/v1/project/sugarshin/build.blog.sugarshin.net/tree/monthly-report?circle-token=#{TOKEN}"
       method: 'POST'
     )
 
