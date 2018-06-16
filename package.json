@@ -10,7 +10,7 @@
     "githubot": "^1.0.1",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
-    "hubot-fass-reservation": "^0.0.1",
+    "hubot-fass-reservation": "^0.0.2",
     "hubot-google-images": "~0.2.6",
     "hubot-google-translate": "~0.2.0",
     "hubot-help": "~0.2.0",
