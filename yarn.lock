@@ -705,9 +705,9 @@ hubot-diagnostics@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/hubot-diagnostics/-/hubot-diagnostics-0.0.1.tgz#69aea01ae4dbdcf0512120c4e33e965ade55262c"
 
-hubot-fass-reservation@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/hubot-fass-reservation/-/hubot-fass-reservation-0.0.3.tgz#95e697cc349d6d2d3680f907fbd3e7fbe9a3ba84"
+hubot-fass-reservation@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/hubot-fass-reservation/-/hubot-fass-reservation-0.0.4.tgz#54bb7efb5e4a6d9a937bb58531ca395a7970d312"
   dependencies:
     cheerio "^1.0.0-rc.2"
     iconv-lite "^0.4.23"
