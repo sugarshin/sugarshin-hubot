@@ -51,4 +51,4 @@ module.exports = (robot) ->
         """
       )
 
-  new CronJob('0 00 14,22 * * 0-6', sayPromise).start()
+  new CronJob('0 00 13,21 * * 0-6', sayPromise).start()
