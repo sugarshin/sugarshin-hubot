@@ -10,7 +10,7 @@
 
 module.exports = (robot) ->
   sendToSlack = ->
-    imageUrl = 'http://www.ktr.mlit.go.jp/keihin/webcam/cam_nikotama_rise.jpg'
+    imageUrl = "http://www.ktr.mlit.go.jp/keihin/webcam/cam_nikotama_rise.jpg?_d=#{Date.now()}"
     robot.send(
       room: HUBOT_SLACK_TAMAGAWA_WEBCAM_CHANNEL_ID
       """
