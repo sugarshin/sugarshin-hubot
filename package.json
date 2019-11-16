@@ -5,27 +5,25 @@
   "author": "sugarshin <shinsugar@gmail.com>",
   "description": "My Hubot",
   "dependencies": {
-    "atob": "^2.1.2",
-    "cron": "^1.5.0",
-    "githubot": "^1.0.1",
-    "hubot": "^2.19.0",
+    "atob": "2.1.2",
+    "cron": "1.7.2",
+    "githubot": "1.0.1",
+    "hubot": "2.19.0",
     "hubot-diagnostics": "0.0.2",
-    "hubot-fass-reservation": "^0.0.6",
-    "hubot-google-images": "~0.2.7",
-    "hubot-google-translate": "~0.2.1",
-    "hubot-help": "~0.2.2",
-    "hubot-heroku-keepalive": "^1.0.3",
+    "hubot-fass-reservation": "0.0.7",
+    "hubot-help": "0.2.2",
+    "hubot-heroku-keepalive": "1.0.3",
     "hubot-maps": "0.0.3",
-    "hubot-pugme": "~0.1.1",
+    "hubot-pugme": "0.1.1",
     "hubot-redis-brain": "0.0.4",
-    "hubot-rules": "~0.1.2",
-    "hubot-scripts": "^2.17.2",
-    "hubot-shipit": "~0.2.1",
-    "hubot-slack": "^4.3.4",
-    "lodash": "^4.17.11",
-    "node-fetch": "^2.3.0"
+    "hubot-rules": "0.1.2",
+    "hubot-scripts": "2.17.2",
+    "hubot-shipit": "0.2.1",
+    "hubot-slack": "4.7.1",
+    "lodash": "4.17.15",
+    "node-fetch": "2.6.0"
   },
   "engines": {
-    "node": "6.14.4"
+    "node": "12.3.0"
   }
 }
