@@ -6,7 +6,7 @@
 
 # { execSync } = require 'child_process'
 # { CronJob } = require 'cron'
-# getChannelMembers = require '../utils/getChannelMembers'
+# getSlackChannelMembers = require '../utils/get-slack-channel-members'
 #
 # { HUBOT_SLACK_MONEY_FORWARD_CHANNEL_ID, HUBOT_GITHUB_TOKEN, HUBOT_MF_FLAG_GIST_ID } = process.env
 
@@ -18,7 +18,7 @@ module.exports = (robot) ->
   #
   #   index = parseInt JSON.parse(res)?.files?['gistfile1.txt']?.content or '0', 10
   #
-  #   getChannelMembers(HUBOT_SLACK_MONEY_FORWARD_CHANNEL_ID)
+  #   getSlackChannelMembers(HUBOT_SLACK_MONEY_FORWARD_CHANNEL_ID)
   #   .then (we) ->
   #     we = we.filter (m) -> m isnt robot.adapter.self.id
   #     robot.send(

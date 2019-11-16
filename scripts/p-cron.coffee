@@ -7,7 +7,7 @@
 { CronJob } = require 'cron'
 github = require 'githubot'
 { random } = require 'lodash'
-decodeMarkdown = require '../utils/decodeGitHubMarkdown'
+decodeMarkdown = require '../utils/decode-gh-markdown'
 
 { HUBOT_SLACK_PROMISE_CHANNEL_ID: PROMISE_CHANNEL } = process.env
 
